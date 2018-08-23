@@ -1,29 +1,21 @@
-Brute Force Password Facebook
+FB CRACK
 ====================
 
-About
+Acerca de
 -----
-- This tool will check each word in your wordlist.
-- If you don't have a wordlist, you can use [jjtool](https://github.com/j3ssie/jjtool-master) to create one.
+- Esta herramienta verificará cada palabra de nuestro diccionario de contraseñas.
+- El diccionario de contraseñas esta dentro de la carpeta de la tool. (Contraseñas.txt)
 
-Installation
+Instalación
 ------------
-- `$ git clone https://github.com/j3ssie/brute-force-facebook.git `
-- `$ cd brute-force-facebook`
-- `$ perl bruteforceFB.pl`
+- `$ git clone https://github.com/Cyb3rMeth0d/FB-CRACK.git `
+- `$ cd FB-CRACK`
+- `$ perl FB-CRACK.pl`
 
-How to use
-----------
-![brute-force-facebook screenhhost](https://github.com/j3ssie/brute-force-facebook/blob/master/assets/1.png)
-
-Tested
-------
-![brute-force-facebook screenhhost](https://github.com/j3ssie/brute-force-facebook/blob/master/assets/2.png)
-
-Required Programs
+Programas requeridos
 -----------------
-- Perl Interpreter (pre-install on Linux)
+- Perl Interpreter (pre-instalado Linux o Windows)
 
-Contact
+Contacto
 -------
-- [j3ssie.webutu.com](http://j3ssie.webutu.com/)
+- [Cyb3rMeth0d](https://twitter.com/CMeth0d)

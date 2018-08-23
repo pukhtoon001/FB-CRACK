@@ -7,37 +7,41 @@ use Term::ANSIColor;
 if(!defined($ARGV[0] && $ARGV[1])) {
 
 system('clear');
-print colored(['bold red '], '    ___           __        ___                ', "\n");
-print colored(['bold red '], '   / _ )______ __/ /____   / _/__  ___________ ', "\n");
-print colored(['bold red '], '  / _  / __/ // / __/ -_) / _/ _ \/ __/ __/ -_)', "\n");
-print colored(['bold green '], ' /____/_/  \_,_/\__/\__/ /_/ \___/_/  \__/\__/ ', "\n");
+print colored(['bold red '], '                               ╭━━━╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╭╮       ', "\n");
+print colored(['bold red '], '                               ┃╭━━╯╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱┃┃       ', "\n");
+print colored(['bold red '], '                               ┃╰━━┳━━┳━━┳━━┫╰━┳━━┳━━┫┃╭╮     ', "\n");
+print colored(['bold green '], '                               ┃╭━━┫╭╮┃╭━┫┃━┫╭╮┃╭╮┃╭╮┃╰╯╯     ', "\n");
+print colored(['bold green '], '                               ┃┃╱╱┃╭╮┃╰━┫┃━┫╰╯┃╰╯┃╰╯┃╭╮╮     ', "\n");
+print colored(['bold red '], '                               ╰╯╱╱╰╯╰┻━━┻━━┻━━┻━━┻━━┻╯╰╯     ', "\n");
 
-print colored(['bold blue '], '    ____             __             __         ', "\n");
-print colored(['bold blue '], '   / __/__ ________ / /  ___  ___  / /__       ', "\n");
-print colored(['bold blue '], '  / _// _ `/ __/ -_) _ \/ _ \/ _ \/  \'_/       ', "\n");
-print colored(['bold cyan '], ' /_/  \_,_/\__/\__/_.__/\___/\___/_/\_\        ', "\n");
-print colored(['bold blue '], '                                               ', "\n");
+print colored(['bold blue '], '                               ╭━━━┳━━━┳━━━┳━━━┳╮╭━╮         ', "\n");
+print colored(['bold blue '], '                               ┃╭━╮┃╭━╮┃╭━╮┃╭━╮┃┃┃╭╯         ', "\n");
+print colored(['bold blue '], '                               ┃┃╱╰┫╰━╯┃┃╱┃┃┃╱╰┫╰╯╯          ', "\n");
+print colored(['bold cyan '], '                               ┃┃╱╭┫╭╮╭┫╰━╯┃┃╱╭┫╭╮┃          ', "\n");
+print colored(['bold cyan '], '                               ┃╰━╯┃┃┃╰┫╭━╮┃╰━╯┃┃┃╰╮         ', "\n");
+print colored(['bold blue '], '                               ╰━━━┻╯╰━┻╯╱╰┻━━━┻╯╰━╯         ', "\n");
+print colored(['bold cyan '], '                               CYb3rMeth0d V2.0 FINAL        ', "\n");
 
 # print colored(['bold blue '], '------------------------------------------------', "\n");
 print colored(['bold green'], '[');
 print colored(['bold cyan'], '!');
 print colored(['bold green'], '] ');
-print colored(['bold cyan'], 'Usage: ');
+print colored(['bold cyan'], 'Uso: ');
 print colored(['bold black'], '$');
 print colored(['bold blue'], "perl ");
 print colored(['bold red'], "$0 ");
 print colored(['bold green'], "<email> ");
-print colored(['bold magenta'], "<wordlist> ", "\n");
+print colored(['bold magenta'], "<Contraseñas.txt> ", "\n");
 
 print colored(['bold green'], '[');
 print colored(['bold cyan'], '!');
 print colored(['bold green'], '] ');
-print colored(['bold cyan'], 'Example: ');
+print colored(['bold cyan'], 'Ejemplo: ');
 print colored(['bold black'], '$');
 print colored(['bold blue'], "perl ");
 print colored(['bold red'], "$0 ");
-print colored(['bold green'], "example\@gmail.com ");
-print colored(['bold magenta'], "/root/Desktop/wordlist.txt ", "\n");
+print colored(['bold green'], "ejemplo\@gmail.com ");
+print colored(['bold magenta'], "Contraseñas.txt ", "\n");
 
 exit; }
 
@@ -104,7 +108,7 @@ print colored(['bold cyan'], '-');
 print colored(['bold green'], '] ');
 print colored(['bold magenta'], "$password");
 print colored(['bold yellow'], ' -> ');
-print colored(['bold black'], "Wrong \n");
+print colored(['bold black'], "Incorrecta \n");
 
 close SSL;
 }
@@ -115,7 +119,7 @@ print colored(['bold yellow '], ">> ");
 print colored(['bold green'], '[');
 print colored(['bold red'], '+');
 print colored(['bold green'], '] ');
-print colored(['bold cyan'], 'Password Found: ');
+print colored(['bold cyan'], 'Contraseña Encontrada: ');
 print colored(['bold green'], "$password");
 print colored(['bold blue '], "\n=====================================================\n\n");
 
